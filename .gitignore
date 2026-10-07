@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+# raw footage, embeddings, model weights: never commit
+data/raw/
+data/videos/
+data/cache/
+*.mp4
+*.mkv
+*.mov
+*.npy
+*.faiss
+*.pt
+*.safetensors
