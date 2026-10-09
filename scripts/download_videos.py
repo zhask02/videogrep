@@ -155,6 +155,8 @@ def download_clip(
 
     command = [
         "yt-dlp",
+        "--js-runtimes",
+        "deno",
         "--no-playlist",
         "--download-sections",
         f"*{start}-{end}",
