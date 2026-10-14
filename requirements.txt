@@ -1,3 +1,7 @@
 numpy
 pytest
 ruff
+# Pretrained vision-language model dependencies
+torch
+transformers
+pillow

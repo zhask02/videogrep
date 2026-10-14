@@ -7,7 +7,6 @@ import json
 import subprocess
 from pathlib import Path
 
-
 VIDEO_DIR = Path("data/videos")
 FRAME_DIR = Path("data/cache/frames")
 MANIFEST_PATH = Path("data/cache/frame_manifest.jsonl")
