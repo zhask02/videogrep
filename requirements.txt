@@ -5,3 +5,4 @@ ruff
 torch
 transformers
 pillow
+faiss-cpu
